@@ -1,3 +1,10 @@
 .footer .questions {font-size:15px;padding: 10px;line-height: normal;}
 .footer .eu {font-size:12px; padding: 10px;line-height: normal;}
 .footer .eu-image {width:100px; margin-right: 10px;}
+
+.team td {vertical-align: top; text-align:center}
+.team .mugshot {height: 250px;}
+
+.papers {text-align:left}
+.papers li {margin: 20px 0px;}
+.myname {font-weight:500}

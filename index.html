@@ -30,9 +30,11 @@
 	<nav id="nav">
 	  <ul>
 	    <li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-	    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Objectives</span></a></li>
-	    <li><a href="#about" id="about-link"><span class="icon solid fa-user">Team</span></a></li>
-	    <li><a href="#contact" id="contact-link"><span class="icon solid fa-file-contract">Publications</span></a></li>
+	    <li><a href="#scope" id="scope-link"><span class="icon solid fa-th">Scope</span></a></li>
+	    <li><a href="#team" id="team-link"><span class="icon solid fa-user">Team</span></a></li>
+	    <li><a href="#pubs" id="pubs-link"><span class="icon solid fa-file-contract">Publications</span></a></li>
+	    <li><a href="#codes" id="codes-link"><span class="icon solid fa-desktop">Software products</span></a></li>
+	    <li><a href="#outreach" id="outreach-link"><span class="icon solid fa-video">Outreach</span></a></li>
 	  </ul>
 	</nav>
 
@@ -77,17 +79,19 @@
       </section>
 
       <!-- Portfolio -->
-      <section id="portfolio" class="two">
+      <section id="scope" class="two">
 	<div class="container">
 
 	  <header>
-	    <h2>Portfolio</h2>
+	    <h2>Scope</h2>
 	  </header>
 
-	  <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+	  <p>
+	    Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
 	    egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
 	    Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-	    fusce hendrerit lacus ridiculus.</p>
+	    fusce hendrerit lacus ridiculus.
+	  </p>
 
 	  <div class="row">
 	    <div class="col-4 col-12-mobile">
@@ -138,54 +142,89 @@
       </section>
 
       <!-- About Me -->
-      <section id="about" class="three">
+      <section id="team" class="three">
 	<div class="container">
 
-	  <header>
-	    <h2>About Me</h2>
-	  </header>
-
-	  <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-	  <p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-	    ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-	    laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-	    parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-	    dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-	    ornare iaculis.</p>
+	  <table class="team">
+	    <tr>
+	      <td>
+		<img class="mugshot" src="images/giorgos.jpg" alt="" />
+	      </td>
+	      <td>	      
+		<h2>Georgios Vernardos</h2>
+		<p>
+		  Dr. Georgios Vernardos is the PI of the GLADIUS project.
+		</p>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td>
+		<img class="mugshot" src="images/fred.jpg" alt="" />
+	      </td>
+	      <td>
+		<h2>Frederic Courbin</h2>
+		<p>
+		  Professor at the Laboratory of Astrophysics (LASTRO) at Ecole Polytechnique Federale de Lausanne, Switzerland.
+		</p>
+	      </td>
+	    </tr>
+	  </table>
 
 	</div>
       </section>
 
       <!-- Contact -->
-      <section id="contact" class="four">
+      <section id="pubs" class="four">
 	<div class="container">
 
 	  <header>
-	    <h2>Contact</h2>
+	    <h2>Publications</h2>
 	  </header>
 
-	  <p>Elementum sem parturient nulla quam placerat viverra
-	    mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-	    donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-	    orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+	  <div class="papers">
+	    <ul>
+	      <li><span class="myname">G. Vernardos</span> & Koopmans L.V.E., <a target="blank" href="https://arxiv.org/abs/2202.09378">"The very knotty lenser: Exploring the role of regularization in source and potential reconstructions using Gaussian process regression"</a>, Monthly Notices of the Royal Astronomical Society 516, pp. 1347, 2022</li>
+	      <li><span class="myname">G. Vernardos</span>, <a target="blank" href="https://arxiv.org/abs/2106.04344">"Simulating time-varying strong lenses"</a>, Monthly Notices of the Royal Astronomical Society 511, pp. 4417, 2022</li>
+	      <li>Shajib, A.J., <span class="myname">G. Vernardos</span>, Collett T.E., Motta V., Sluse D., Williams L.L.R., Saha P., Birrer S., Spiniello C., Treu T., <a target="blank" href="https://arxiv.org/abs/2210.10790">"Strong Lensing by Galaxies"</a>, to be submitted to Space Science Reviews, Topical Collection "Strong Gravitational Lensing", eds. J. Wambsganss et al., 2022</li>
+	      <li>Best H., Fagin J., <span class="myname">G. Vernardos</span>, O'Dowd M., <a target="blank" href="https://arxiv.org/abs/2210.10500">"Resolving the Vicinity of Supermassive Black Holes with Gravitational Microlensing"</a>, submitted to Monthly Notices of the Royal Astronomical Society, 2022</li>
+	      <li>Biggio L., <span class="myname">G. Vernardos</span>, Galan A., Peel A. Courbin F., <a target="blank" href="https://arxiv.org/abs/2210.09169">"Modeling lens potentials with continuous neural fields in galaxy-scale strong lenses"</a>, Astronomy & Astrophysics in press, 2022</li>
+	      <li>Galan A., <span class="myname">G. Vernardos</span>, Peel A., Biggio L., Courbin F., Starck J.-L., <a target="blank" href="https://arxiv.org/abs/2207.05763">"Using wavelets to capture deviations from smoothness in galaxy-scale strong lenses"</a>, Astronomy & Astrophysics in press, 2022</li>
+	      <li>Biggio L., Domi A., Tosi S., <span class="myname">G. Vernardos</span>, Ricci D., Paganin L., Bracco G., <a target="blank" href="https://arxiv.org/abs/2110.01012">"Time-delay estimation in unresolved lensed quasars"</a>, Monthly Notices of the Royal Astronomical Society 515, pp. 5665, 2022</li>
+	      <li>Paic E., <span class="myname">G. Vernardos</span>, Sluse D., Millon M., Courbin F., Chan J.H.H., Bonvin V., <a target="blank" href="https://arxiv.org/abs/2110.05500">"Constraining quasar structure using high-frequency microlensing variations and continuum reverberation"</a>, Astronomy & Astrophysics 659, id.A21, 2022</li>
+	      <li>Savary E., Rojas K., Maus M., Clément B., Courbin F., Gavazzi R., Chan J.H.H., Lemon C., <span class="myname">G. Vernardos</span>, Cañameras R., Schuldt S., Suyu S.H., Cuillandre J.-C., Fabbro S., Gwyn S., Hudson M.J., Kilbinger M., Scott D., Stone, C., <a target="blank" href="https://arxiv.org/abs/2110.11972">"Strong lensing in UNIONS: Toward a pipeline from discovery to modeling"</a>, Astronomy & Astrophysics 666, id.A1, 2022</li>
+	      <li>Chan J.H.H., Lemon C., Courbin F., Gavazzi R., Clément B., Millon M., Paic E., Rojas K., Savary E., <span class="myname">G. Vernardos</span>, Cuillandre J.-C., Fabbro S., Gwyn S., Hudson M.J., Kilbinger M., McConnachie A., <a target="blank" href="https://arxiv.org/abs/2110.09535">"Discovery of strongly lensed quasars in the Ultraviolet Near Infrared Optical Northern Survey (UNIONS)"</a>, Astronomy & Astrophysics 659, id.A140, 2022</li>
+	      <li>Van de Vyvere L., Gomer M.R., Sluse D., Xu D., Birrer S., Galan A., <span class="myname">G. Vernardos</span>, <a target="blank" href="https://arxiv.org/abs/2112.03932">"TDCOSMO. VII. Boxyness/discyness in lensing galaxies: Detectability and impact on H<sub>0</sub>"</a>, Astronomy & Astrophysics 659, id.A127, 2022</li>
+	      <li>Mukherjee S., Koopmans L.V.E., Tortora C., Schaller M., Metcalf R.B., Schaye J., <span class="myname">G. Vernardos</span>, <a target="blank" href="https://arxiv.org/abs/2110.07615">"SEAGLE - III: Towards resolving the mismatch in the dark-matter fraction in early-type galaxies between simulations and observations"</a>, Monthly Notices of the Royal Astronomical Society 509, pp. 1245, 2022</li>
+	    </ul>
+	  </div>
 
-	  <form method="post" action="#">
-	    <div class="row">
-	      <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-	      <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-	      <div class="col-12">
-		<textarea name="message" placeholder="Message"></textarea>
-	      </div>
-	      <div class="col-12">
-		<input type="submit" value="Send Message" />
-	      </div>
-	    </div>
-	  </form>
 
 	</div>
       </section>
 
+      <section id="codes" class="five">
+	<div class="container">
+
+	  <header>
+	    <h2>Software products</h2>
+	  </header>
+
+	</div>
+      </section>
+
+
+      <section id="outreach" class="six">
+	<div class="container">
+
+	  <header>
+	    <h2>Outreach</h2>
+	  </header>
+
+	</div>
+      </section>
+
+
+      
     </div>
 
     <!-- Footer -->
@@ -193,7 +232,7 @@
 
       <!-- Copyright -->
       <ul class="copyright">
-	<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+	<li>&copy; G. Vernardos. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
       </ul>
 
     </div>
